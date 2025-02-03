@@ -24,7 +24,15 @@ body {
   height: 100%;
   width: 100%;
   padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
 }
+h1{
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+}
+
 .button-container {
   height: 100%;
   width: 100%;
