@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div id="previousOperand"></div>
+        <input id="display" readonly autofocus placeholder="0" />
+        <div class="button-container">
+          <div class="button">
+            <button class="clearBtn special-btn">AC</button>
+            <button class="eraseBtn special-btn">DEL</button>
+            <button class="modulusBtn special-btn">%</button>
+            <button class="divideBtn operators">/</button>
+          </div>
+          <div class="button">
+            <button class="numberBtn">7</button>
+            <button class="numberBtn">8</button>
+            <button class="numberBtn">9</button>
+            <button class="multiplyBtn operators">*</button>
+          </div>
+          <div class="button">
+            <button class="numberBtn">4</button>
+            <button class="numberBtn">5</button>
+            <button class="numberBtn">6</button>
+            <button class="subtractBtn operators">-</button>
+          </div>
+          <div class="button">
+            <button class="numberBtn">1</button>
+            <button class="numberBtn">2</button>
+            <button class="numberBtn">3</button>
+            <button class="addBtn operators">+</button>
+          </div>
+          <div class="button">
+            <button class="numberBtn">00</button>
+            <button class="numberBtn">0</button>
+            <button id="decimalBtn">.</button>
+            <button class="equalBtn operators">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
