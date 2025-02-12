@@ -97,7 +97,7 @@ button {
   cursor: pointer;
   min-width: 40px;
 }
-button:hover{
+button:hover {
   background-color: #2f316d;
 }
 
@@ -130,6 +130,18 @@ button:hover{
   background: #ffa43c;
   color: #ffffff;
 }
-.equalBtn:hover{
+.equalBtn:hover {
   background: #ff8800;
+}
+
+.money-logo {
+filter: invert(1);
+width:65px;
+height:65px;
+align-items:center;
+justify-content: center;
+display: flex;
+flex-direction:row;
+gap: 10px;`
+background:transparent;
 }
