@@ -138,10 +138,4 @@ button:hover {
 filter: invert(1);
 width:65px;
 height:65px;
-align-items:center;
-justify-content: center;
-display: flex;
-flex-direction:row;
-gap: 10px;`
-background:transparent;
 }
